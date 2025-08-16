@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Roblox Community Wealth Ranker</title>
+  <style>
+    body { font-family: Arial, sans-serif; width: 300px; margin: 15px; }
+    input[type="text"] { width: calc(100% - 10px); padding: 5px; margin-bottom: 8px; }
+    button { width: 100%; padding: 8px; margin-top: 4px; cursor: pointer; }
+    #results { margin-top: 10px; max-height: 400px; overflow-y: auto; }
+    .member { display: flex; justify-content: space-between; border-bottom: 1px solid #ddd; padding: 4px 0; }
+    .member span { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  </style>
+</head>
+<body>
+  <input id="communityLink" type="text" placeholder="Enter Roblox community link" />
+  <button id="searchBtn">Search for List</button>
+  <button id="refreshBtn" disabled>Refresh</button>
+
+  <div id="status"></div>
+  <div id="results"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

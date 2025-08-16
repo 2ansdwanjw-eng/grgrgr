@@ -1,0 +1,19 @@
+{
+  "name": "Roblox Community Wealth Ranker",
+  "description": "Fetch and rank Roblox community members by wealth based on ownership of limited items (>10k). Compatible with Roblox 2025 community links.",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Community Wealth Ranker"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://*.roblox.com/*",
+    "https://groups.roblox.com/*",
+    "https://inventory.roblox.com/*",
+    "https://economy.roblox.com/*"
+  ]
+}
